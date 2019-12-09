@@ -101,7 +101,7 @@ steps:
     db_type: sqlite
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -166,7 +166,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -241,7 +241,7 @@ steps:
     db_type: pgsql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -315,7 +315,7 @@ steps:
     db_type: sqlite
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -371,7 +371,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -437,7 +437,7 @@ steps:
     db_type: pgsql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -502,7 +502,7 @@ steps:
     db_type: sqlite
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -558,7 +558,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -624,7 +624,7 @@ steps:
     db_type: pgsql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: setup-server-encryption
   pull: always
@@ -689,7 +689,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -805,7 +805,7 @@ steps:
     db_type: pgsql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -920,7 +920,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1036,7 +1036,7 @@ steps:
     db_type: pgsql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1151,7 +1151,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1282,7 +1282,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1413,7 +1413,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1544,7 +1544,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1675,7 +1675,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1833,7 +1833,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -1991,7 +1991,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2149,7 +2149,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2307,7 +2307,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2465,7 +2465,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2623,7 +2623,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2781,7 +2781,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -2939,7 +2939,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3097,7 +3097,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3255,7 +3255,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3413,7 +3413,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3571,7 +3571,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3729,7 +3729,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -3887,7 +3887,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4045,7 +4045,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4203,7 +4203,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4361,7 +4361,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4519,7 +4519,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4677,7 +4677,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4835,7 +4835,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -4993,7 +4993,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5151,7 +5151,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5309,7 +5309,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5467,7 +5467,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5625,7 +5625,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5781,7 +5781,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -5937,7 +5937,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6093,7 +6093,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6249,7 +6249,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6405,7 +6405,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6561,7 +6561,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6717,7 +6717,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -6873,7 +6873,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7029,7 +7029,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7185,7 +7185,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7341,7 +7341,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7497,7 +7497,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7653,7 +7653,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7809,7 +7809,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -7965,7 +7965,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8121,7 +8121,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8277,7 +8277,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8433,7 +8433,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8589,7 +8589,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8745,7 +8745,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -8901,7 +8901,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9057,7 +9057,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9213,7 +9213,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9369,7 +9369,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9525,7 +9525,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9683,7 +9683,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9841,7 +9841,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -9999,7 +9999,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10157,7 +10157,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10315,7 +10315,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10473,7 +10473,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10631,7 +10631,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10789,7 +10789,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -10947,7 +10947,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11105,7 +11105,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11263,7 +11263,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11421,7 +11421,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11579,7 +11579,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11737,7 +11737,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -11895,7 +11895,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12053,7 +12053,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12211,7 +12211,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12369,7 +12369,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12527,7 +12527,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12685,7 +12685,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -12843,7 +12843,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13001,7 +13001,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13159,7 +13159,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13317,7 +13317,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13475,7 +13475,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13631,7 +13631,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13787,7 +13787,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -13943,7 +13943,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14099,7 +14099,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14255,7 +14255,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14411,7 +14411,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14567,7 +14567,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14723,7 +14723,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -14879,7 +14879,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15035,7 +15035,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15191,7 +15191,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15347,7 +15347,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15503,7 +15503,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15659,7 +15659,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15815,7 +15815,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -15971,7 +15971,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16127,7 +16127,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16283,7 +16283,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16439,7 +16439,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16595,7 +16595,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16751,7 +16751,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -16907,7 +16907,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17063,7 +17063,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17219,7 +17219,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17375,7 +17375,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17548,7 +17548,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17721,7 +17721,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -17894,7 +17894,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18067,7 +18067,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18240,7 +18240,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18413,7 +18413,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18586,7 +18586,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18759,7 +18759,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -18932,7 +18932,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19105,7 +19105,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19278,7 +19278,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19451,7 +19451,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19624,7 +19624,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19797,7 +19797,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -19970,7 +19970,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -20143,7 +20143,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -20316,7 +20316,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -20489,7 +20489,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -20662,7 +20662,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -20835,7 +20835,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21008,7 +21008,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21181,7 +21181,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21354,7 +21354,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21527,7 +21527,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21700,7 +21700,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -21871,7 +21871,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22042,7 +22042,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22213,7 +22213,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22384,7 +22384,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22555,7 +22555,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22726,7 +22726,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -22897,7 +22897,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23068,7 +23068,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23239,7 +23239,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23410,7 +23410,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23581,7 +23581,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23752,7 +23752,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -23923,7 +23923,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24094,7 +24094,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24265,7 +24265,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24436,7 +24436,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24607,7 +24607,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24778,7 +24778,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -24949,7 +24949,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25120,7 +25120,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25291,7 +25291,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25462,7 +25462,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25633,7 +25633,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25804,7 +25804,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -25975,7 +25975,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -26148,7 +26148,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -26321,7 +26321,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -26494,7 +26494,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -26667,7 +26667,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -26840,7 +26840,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27013,7 +27013,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27186,7 +27186,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27359,7 +27359,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27532,7 +27532,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27705,7 +27705,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -27878,7 +27878,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28051,7 +28051,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28224,7 +28224,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28397,7 +28397,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28570,7 +28570,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28743,7 +28743,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -28916,7 +28916,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29089,7 +29089,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29262,7 +29262,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29435,7 +29435,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29608,7 +29608,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29781,7 +29781,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -29954,7 +29954,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30127,7 +30127,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: daily-master-qa
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30300,7 +30300,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30471,7 +30471,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30642,7 +30642,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30813,7 +30813,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -30984,7 +30984,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -31155,7 +31155,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -31326,7 +31326,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -31497,7 +31497,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -31668,7 +31668,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -31839,7 +31839,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32010,7 +32010,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32181,7 +32181,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32352,7 +32352,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32523,7 +32523,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32694,7 +32694,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -32865,7 +32865,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33036,7 +33036,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33207,7 +33207,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33378,7 +33378,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33549,7 +33549,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33720,7 +33720,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -33891,7 +33891,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -34062,7 +34062,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -34233,7 +34233,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
@@ -34404,7 +34404,7 @@ steps:
     db_type: mysql
     db_username: owncloud
     exclude: apps/encryption
-    version: latest
+    git_reference: stream_read-wrapper
 
 - name: install-testrunner
   pull: always
